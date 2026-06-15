@@ -1,3 +1,5 @@
+## **`Restrictions.md`**
+
 ## There is no native HTML/CSS magic bullet that makes the DOM behave perfectly when a user aggressively zooms in on a highly animated scroll-linked page. If you refuse to use Canvas/WebGL (which is completely understandable for an internship portfolio), you have to understand exactly what breaks and implement the best known "hacks" to mitigate it.
 
 ---
