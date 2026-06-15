@@ -1,3 +1,5 @@
+## **`Architecture.md`**
+
 # React (The Skeleton):
 
 ## Handles the component logic and data mapping. It allows you to write your layout once (ParallaxSection.jsx) and reuse it infinitely by just passing in different data from App.jsx.
