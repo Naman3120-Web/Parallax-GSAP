@@ -1,24 +1,24 @@
-# 🚀 React Parallax Engine (Agency-Grade)
+# React Parallax Engine (Agency-Grade)
 
 A high-performance, continuously scrolling parallax portfolio engine built with React, GSAP, and Lenis. 
 
 This template bypasses the clunky, hardware-dependent native browser scrollbar and replaces it with a buttery-smooth, mathematically calculated virtual scroll. It is designed to handle complex overlapping animations while remaining highly resilient to viewport resizing and zooming.
 
-## ✨ Features
+##  Features
 
 * **Virtual Scrolling:** Powered by Lenis for cinematic, 60fps scrolling across all devices.
 * **Continuous Parallax:** GSAP ScrollTrigger maps foreground and background elements to exact scroll positions with varying speeds (`yPercent`).
 * **Zoom-Resistant DOM:** Implements debounced resize listeners and `vh`/`vw` constraints to prevent layout breaks during aggressive browser zooming.
 * **Componentized:** Add a new fully animated section just by dropping a new data object into the `App.jsx` array.
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 * **Framework:** React 19 + Vite
 * **Animation Math:** GSAP (GreenSock) & `@gsap/react`
 * **Scroll Hijacking:** Lenis (`lenis/react`)
 * **Styling:** Vanilla CSS (Hardware Accelerated via `will-change`)
 
-## 📦 Quick Start
+## Quick Start
 
 1. **Clone the repository**
 
@@ -35,7 +35,7 @@ npm install
 ```
 npm run dev
 ```
-## 💻 How to Add a Project
+## How to Add a Project
 ### To add a new parallax section, simply open src/App.jsx and add a new object to the portfolioProjects array. The ParallaxSection.jsx engine will handle all the math and animations automatically.
 
 JavaScript
