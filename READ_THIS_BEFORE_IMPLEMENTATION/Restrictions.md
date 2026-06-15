@@ -12,7 +12,7 @@ When you zoom in on a browser (Ctrl/Cmd +), the browser doesn't just make the im
 
 # The Reflow Nightmare: Zooming forces a "reflow." The browser has to recalculate the size, margin, and padding of every single <div> and text element instantly.
 
-The vh/vw Trap: We used vh (viewport height) and vw (viewport width) to try and keep things proportional. However, on some browsers (especially mobile Safari), vh actually changes depending on if the address bar is visible or not, creating sudden jarring jumps even without zooming.
+# The vh/vw Trap: We used vh (viewport height) and vw (viewport width) to try and keep things proportional. However, on some browsers (especially mobile Safari), vh actually changes depending on if the address bar is visible or not, creating sudden jarring jumps even without zooming.
 
 ---
 
